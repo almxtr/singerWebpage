@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+  color: #7c6faa;
+  background-color: #f2f9c7;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar {
+  text-transform: uppercase;
+  background-color: #e8c4b0;
+  border-bottom: 3px solid #7c6faa;
+}
+.navbar-toggler {
+  background-color: #7c6faa;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #7c6faa;
+  font-size: 1.1em !important;
+  padding-right: 12px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f2f9c7;
+}
+a.nav-link.active {
+  color: #f2f9c7 !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  padding-right: 40em;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  color: #f2f9c7;
+  font-size: 500%;
+  font-family: "Kaushan Script", serif;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 2rem;
+}
+.btn {
+  color: #f2f9c7;
+  border-color: #7c6faa;
+  text-shadow: 1px 1px 10px #000;
+}
+.btn:hover {
+  background-color: #e8c4b0;
+  border-color: #f2f9c7;
+  color: #7c6faa;
+  text-shadow: none;
+}
+.Jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+  background-color: #e8c4b0 !important;
+}
+h3 {
+  font-family: "Kaushan Script", serif;
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+}
+.gal {
+  padding-top: 0.5em;
+  padding-bottom: 0.1em !important;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.videoFrame {
+  width: 100%;
+}
+#galeria {
+  margin: 20px;
+  padding: 0;
+  background: #e8c4b0;
+}
+.container {
+  max-width: 760px;
+  margin: auto;
+  border: #7c6faa;
+  background: #e8c4b0;
+}
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+  text-decoration: none;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-phone,
+.fa-envelope {
+  color: #f2f9c7;
+  font-size: 3rem;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-phone:hover,
+.fa-envelope:hover {
+  color: #7c6faa;
+}
+footer {
+  background-color: #e8c4b0;
+}
+footer img {
+  height: 6rem;
+}
+hr.light {
+  border-top: 1px solid #f2f9c7;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+hr.dark {
+  border-top: 1px solid #e8c4b0;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+strong {
+  color: #7c6faa;
+  font-size: 1.7rem;
+}
+strong:hover {
+  color: #f2f9c7;
+}
+.col-md-6 a {
+  text-decoration: none;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 38%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .Jumbotron {
+    font-size: 0.9em;
+  }
+  .para-font {
+    font-size: 0.9em;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 225%;
+    margin-bottom: -30px;
+  }
+  .carousel-caption .btn {
+    font-size: 75%;
+    padding: 4px 8px;
+  }
+  .navbar {
+    padding-top: 2px;
+    padding-bottom: 1px;
+  }
+  .fa-phone,
+  .fa-envelope {
+    font-size: 2.5em;
+    display: block;
+    margin: auto;
+  }
+  strong {
+    font-size: 1.3em;
+  }
+  footer img {
+    height: 5rem;
+  }
+  h3 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+  .footer {
+    padding: 0;
+  }
+  .last-hr {
+    display: none;
+  }
+  .no-pad p {
+    margin: 0;
+  }
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url("img/mac.png");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/* Fade in Animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
